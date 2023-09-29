@@ -1,0 +1,11 @@
+@EndUserText.label: 'booking'
+@MappingRole: true
+define role Z588414_BOOKING {
+  grant 
+    select
+      on
+        Z588414_BOOKING
+          where
+              CarrierId = 'LH' or  CarrierId= 'UA' ;
+            
+}

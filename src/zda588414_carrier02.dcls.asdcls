@@ -1,0 +1,10 @@
+@EndUserText.label: 'carrier'
+@MappingRole: true
+define role ZDA588414_CARRIER02 {
+  grant
+    select
+      on
+        ZDA588414_CARRIER02
+          where
+            inheriting conditions from entity ZDA588414_Carrier;
+}

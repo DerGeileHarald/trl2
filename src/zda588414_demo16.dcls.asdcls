@@ -1,0 +1,11 @@
+@EndUserText.label: 'bookingwithCustomer'
+@MappingRole: true
+define role ZDA588414_DEMO16 {
+  grant 
+    select
+      on
+        ZDA588414_DEMO16
+          where
+            city = 'Berlin' and (  _booking.CarrierId = 'LH' or  _booking.CarrierId= 'UA') ;
+            
+}
